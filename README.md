@@ -1,6 +1,10 @@
 # GPAE
 
-This repository provides an implementation of **GPAE (Generalized Per-Agent Advantage Estimation)** for multi-agent policy optimization, built on top of **JaxMARL** and the JAX ecosystem.
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![JAX](https://img.shields.io/badge/JAX-enabled-orange)
+![License](https://img.shields.io/badge/license-Apache--2.0-blue)
+
+This repository provides an implementation of **GPAE (Generalized Per-Agent Advantage Estimation)** for multi-agent policy optimization.
 
 Paper status: **Accepted at AAMAS 2026 (to appear).**
 
@@ -48,5 +52,5 @@ If you use this code in your research, please cite:
 
 ## Acknowledgements
 
-- Built on top of **JaxMARL**
+- Built on top of **JaxMARL** <https://github.com/FLAIROx/JaxMARL>
 - JAX ecosystem (e.g., JAX/Flax/Optax)
