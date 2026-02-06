@@ -1,0 +1,41 @@
+"LR": 0.0005
+"NUM_ENVS": 128
+"NUM_STEPS": 128
+"TOTAL_TIMESTEPS": 1e7
+"HIDDEN_SIZE": 128
+"NUM_LAYERS": 2
+"UPDATE_EPOCHS": 5
+"NUM_MINIBATCHES": 1
+"GAMMA": 0.99
+"GAE_LAMBDA": 0.95
+"CLIP_EPS": 0.2
+"SCALE_CLIP_EPS": False
+"ENT_COEF": 0
+"VF_COEF": 0.5
+"MAX_GRAD_NORM": 1.0
+"ACTIVATION": "relu"
+"REWARD_SCALE": 1.0
+"LAYER_NORM": true
+"NORM_INPUT": true
+"OBS_WITH_AGENT_ID": False
+"STATE_WITH_AGENT_ID": True
+"ENV_NAME": "HeuristicEnemySMAX"
+"MAP_NAME": "1s1z"
+"SEED": 0
+"ENV_KWARGS": 
+  "see_enemy_actions": True
+  "walls_cause_death": True
+  "attack_mode": "closest"
+"ANNEAL_LR": True
+
+"BUFFER_SIZE": 1
+"ADVANTAGE": "gpae"
+"CORRECTION": "dt" #st(single truncation), it(individual truncation), dt(double truncation), awt(agent-wise truncation)
+"DT_ETA": 1.02
+"EXP_TAG": GPAE_on
+
+# WandB Params
+"WANDB_MODE": "online"
+"ENTITY": ""
+"PROJECT": ""
+"HYP_TUNE": False
