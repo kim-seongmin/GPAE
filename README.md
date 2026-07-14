@@ -6,7 +6,7 @@
 
 This repository provides an implementation of **GPAE (Generalized Per-Agent Advantage Estimation)** for multi-agent policy optimization.
 
-Paper status: **Accepted at AAMAS 2026 (to appear).**
+Paper status: **Accepted at AAMAS 2026.**
 
 ## Requirements
 
